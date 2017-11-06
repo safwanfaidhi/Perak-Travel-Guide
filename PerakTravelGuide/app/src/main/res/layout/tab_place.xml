@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.peraktravelguide.puo.peraktravelguide.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        android:layout_marginBottom="2sp"
+        android:contentDescription="@string/interesting_place"
+        android:onClick="interesting_place"
+        android:scaleType="fitXY"
+        android:src="@drawable/intersting" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        android:layout_marginBottom="2sp"
+        android:contentDescription="@string/food_place"
+        android:onClick="food_place"
+        android:scaleType="fitXY"
+        android:src="@drawable/food" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160sp"
+        android:layout_marginBottom="2sp"
+        android:contentDescription="@string/facility"
+        android:onClick="facility_place"
+        android:scaleType="fitXY"
+        android:src="@drawable/facility" />
+
+
+</LinearLayout>

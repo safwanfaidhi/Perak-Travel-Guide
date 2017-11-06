@@ -1,0 +1,67 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.peraktravelguide.puo.peraktravelguide.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/museum"
+            android:onClick="getMuseum"
+            android:scaleType="fitXY"
+            android:src="@drawable/museum" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/theme"
+            android:onClick="getPark"
+            android:scaleType="fitXY"
+            android:src="@drawable/park" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/nature"
+            android:onClick="getNature"
+            android:scaleType="fitXY"
+            android:src="@drawable/nature" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/mall"
+            android:onClick="getMall"
+            android:scaleType="fitXY"
+            android:src="@drawable/mall" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/market"
+            android:onClick="getMarket"
+            android:scaleType="fitXY"
+            android:src="@drawable/night_market" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:contentDescription="@string/waterfall"
+            android:onClick="getWaterfall"
+            android:scaleType="fitXY"
+            android:src="@drawable/waterfall" />
+    </LinearLayout>
+
+
+</ScrollView>

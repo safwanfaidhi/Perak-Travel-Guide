@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.peraktravelguide.puo.peraktravelguide.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbarFood"
+            layout="@layout/toolbar_layout" />
+
+        <ImageView
+            android:id="@+id/restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_below="@id/toolbarFood"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/restaurant"
+            android:onClick="getRestaurant"
+            android:scaleType="fitXY"
+            android:src="@drawable/restaurant" />
+
+        <ImageView
+            android:id="@+id/cafe"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_below="@id/restaurant"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/cafe"
+            android:onClick="getCafe"
+            android:scaleType="fitXY"
+            android:src="@drawable/cafe" />
+
+        <ImageView
+            android:id="@+id/kfc"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_below="@id/cafe"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/kfc"
+            android:onClick="getKFC"
+            android:scaleType="fitXY"
+            android:src="@drawable/kfc" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_below="@id/kfc"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/mcd"
+            android:onClick="getMCD"
+            android:scaleType="fitXY"
+            android:src="@drawable/mcd" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

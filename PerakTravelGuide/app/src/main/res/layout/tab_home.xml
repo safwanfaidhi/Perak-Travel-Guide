@@ -1,0 +1,48 @@
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:autoStart="true"
+    android:flipInterval="5000"
+    android:padding="10dp"
+    tools:context="com.peraktravelguide.puo.peraktravelguide.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/perak1" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/perak2" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/perak3" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/perak4" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/perak5" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/perak6" />
+
+</ViewFlipper>

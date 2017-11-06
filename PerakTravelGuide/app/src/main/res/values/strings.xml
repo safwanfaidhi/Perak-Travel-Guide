@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Perak Travel Guide</string>
+    <string name="museum">Museum</string>
+    <string name="waterfall">Waterfall</string>
+    <string name="theme">Theme Park</string>
+    <string name="nature">Nature Preserve</string>
+    <string name="mall">Shopping Mall</string>
+    <string name="market">Night Market</string>
+    <string name="interesting_place">Interesting Place</string>
+    <string name="facility">Facility</string>
+    <string name="food_place">Food</string>
+    <string name="restaurant">Restaurant</string>
+    <string name="cafe">Cafe</string>
+    <string name="kfc">KFC</string>
+    <string name="mcd">McDonalds</string>
+    <string name="hotel">Hotel</string>
+    <string name="hospital">Hospital</string>
+    <string name="mart">Mart</string>
+    <string name="atm">Cash Point</string>
+    <string name="gas">Gas Station</string>
+    <string name="police">Police Station</string>
+    <string name="workshop">Workshop</string>
+    <string name="airport">Airport</string>
+    <string name="train">Train Station</string>
+    <string name="go">Go</string>
+
+</resources>

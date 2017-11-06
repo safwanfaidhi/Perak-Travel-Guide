@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/hotel"
+            android:onClick="getHotel"
+            android:scaleType="fitXY"
+            android:src="@drawable/hotel" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/hospital"
+            android:onClick="getHospital"
+            android:scaleType="fitXY"
+            android:src="@drawable/hospital" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/mart"
+            android:onClick="getMart"
+            android:scaleType="fitXY"
+            android:src="@drawable/mart" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/atm"
+            android:onClick="getAtm"
+            android:scaleType="fitXY"
+            android:src="@drawable/atm" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/police"
+            android:onClick="getPolice"
+            android:scaleType="fitXY"
+            android:src="@drawable/police" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/workshop"
+            android:onClick="getWorkshop"
+            android:scaleType="fitXY"
+            android:src="@drawable/workshop" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/airport"
+            android:onClick="getAirport"
+            android:scaleType="fitXY"
+            android:src="@drawable/airport" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/train"
+            android:onClick="getTrain"
+            android:scaleType="fitXY"
+            android:src="@drawable/train" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_marginBottom="2sp"
+            android:contentDescription="@string/gas"
+            android:onClick="getGas"
+            android:scaleType="fitXY"
+            android:src="@drawable/gas" />
+
+    </LinearLayout>
+
+</ScrollView>
