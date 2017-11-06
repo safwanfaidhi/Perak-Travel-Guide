@@ -8,6 +8,8 @@ This application also support direction to the desired location. User can choose
 
 This application using Google Map API to retrieve the details about the location and direction to the location
 
+This application now available in Google Apps Store for free download
+
 # Design
 
 [![Main Category](https://lh3.googleusercontent.com/C9dmbwIwxXtTouIBZAsdyLV078N7GX6pvTbMbm_fCZJOtsU6DzIb1rBpZmSCZlyumCI=h400)](#design)
