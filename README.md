@@ -6,6 +6,6 @@
 #
 # This application also support direction to the desired location. User can choose either open the application using Google Map or Waze in their phone.
 #
-# This application using Google Map API to retrieve the details about the place and direction to the location
+# This application using Google Map API to retrieve the details about the location and direction to the location
 #
 
